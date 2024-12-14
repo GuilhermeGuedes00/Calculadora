@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Itim&family=Krona+One&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Krona+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: linear-gradient(45deg, #E4B1F0, #7E60BF, #433878);
+    height: 100vh;
+    font-family: "arial", serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#calculadora {
+    position: absolute;
+    background-color: #8967B3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+
+#botao {
+    background-color: #7ab2d3;
+    width: 50px;
+    height: 50px;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 10px;
+    
+}
+
+#botao:hover {
+    background-color: #56829b;
+}
+
+#resultado {
+    background-color: aliceblue;
+    color: black;
+    width: 220px;
+    height: 25px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Krona One", sans-serif;
+    border: 1px solid;
+    overflow: hidden;
+    text-align: right;
+}
+
+table {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-size: 22px;
+    color: black;
+    margin: 5px;
+}
+
+#cabecalho {
+    margin-bottom: 10px;
+    font-family: "poppins", sans-serif;
+    color: black;
+}
+
+a:hover {
+    color: #333333;
+}
+ 
+#container_calculadora {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
